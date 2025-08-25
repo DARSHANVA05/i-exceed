@@ -1,0 +1,96 @@
+public static void main (String args[]){
+	main();
+}
+public static void main(){
+	//can be called from main(String args[])
+}
+
+=====================================
+
+static cannot be declared in any of the block(constructor or methods).
+
+static variables can be accessed by both static and non static methods.
+Non-static variables can be accessed by only non static methods and constructors.
+
+=====================================
+
+Diamond problem
+2 super classes 1 base class. --> problem with constructor chaining and methods.
+
+=====================================
+
+interface
+multiple inheritance
+method implementation in interface 
+
+interfaceName.super.defaultMethodName();	//to call 
+
+whatever variable that is declared inside interface is static final.
+
+interface with static methods
+
+=====================================
+
+Cannot inherit final class
+
+casting from itnterface to concrete class(List and linked list example)
+
+==================================================================================================================
+
+Functional interface: Interface with only one methods in the interface
+
+@FunctionalInterface
+
+==========================
+
+Composition
+
+Class1
+Class2
+Class3
+
+class3->class2->class1
+
+==========================
+
+Encapsulation
+
+Reflection
+
+
+============================================================================================================================================================
+
+class a extends Thread{
+	
+	sample(){	
+	}
+
+	run(){
+		impl
+	}	
+
+
+}
+class main{
+	psvm(){
+		
+	}
+}
+
+implementing runnable
+extending thread
+
+cannot call a thread twice for the same object
+	
+run() is called by start()
+
+
+to access thread in static used to extract current thread obj ==> thread.currentThread()
+
+
+
+
+
+
+
+
