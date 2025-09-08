@@ -1,0 +1,8 @@
+set: no duplicate values
+
+set literal: fixed
+set of constructor: growable
+type along with set: default without specifying dynamic
+Set.from
+Set.of ==> type safe
+Set.unModifiable()
