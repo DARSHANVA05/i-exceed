@@ -12,7 +12,7 @@ void main() {
   print(squared); //returns the square of the number
 
   //forEach is used for iteration
-  var values = sampleList.forEach((item) => {print(item)}); //iterates the list
+  var values = sampleList.forEach((item) {print(item);}); //iterates the list
 
   //Spread operator
   var list1 = [1, 2, 3, 4, 5];
