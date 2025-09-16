@@ -26,11 +26,11 @@ void main() {
 
   //using .from
   Set demoSet1 = Set.from(["One", "two", "three"]); //converts list to set
-  Set demoSet2 = Set.from(setByConstrutor); //
+  Set demoSet2 = Set.from(setByConstrutor); //copies the existing set
   print(demoSet1);
   print(demoSet2);
 
-  //usuing .of
+  //using .of
   Set ofSet = Set.of({1, 2, 3, 4}); //copies the existing set
   print(ofSet);
 

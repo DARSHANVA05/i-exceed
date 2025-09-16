@@ -29,6 +29,4 @@ void main() {
   var mapEntries = {'x': 10, 'y': 20};
   var mapEntriesDemo = Map.of(mapEntries);
   print(mapEntriesDemo);
-
 }
-
